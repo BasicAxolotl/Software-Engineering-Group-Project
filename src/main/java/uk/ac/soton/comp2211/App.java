@@ -5,6 +5,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.StackPane;
+import uk.ac.soton.comp2211.ui.Window;
 
 /**
  * JavaFX Application class
@@ -51,9 +52,7 @@ public class App extends Application {
     public void openGame() {
 
         //Change the width and height in this class to change the base rendering resolution for all game parts
-        var sp = new StackPane(new ImageView("https://pbs.twimg.com/media/ESUotm-U8AAqvYe.jpg"));
-        var gameWindow = new Scene(sp,800,600);
-        stage.setScene(gameWindow);
+        var gameWindow = new Window(stage,width,height);
         //Display the GameWindow
         stage.show();
     }

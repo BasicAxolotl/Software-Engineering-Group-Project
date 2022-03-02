@@ -1,2 +1,9 @@
+uk/ac/soton/comp2211/Obstacles/Obstacle.class
+uk/ac/soton/comp2211/scenes/MenuScene.class
+uk/ac/soton/comp2211/scenes/BaseScene.class
+uk/ac/soton/comp2211/scenes/MenuScene$1.class
 uk/ac/soton/comp2211/Launcher.class
+uk/ac/soton/comp2211/scenes/ObstacleScene.class
+uk/ac/soton/comp2211/ui/Window.class
+uk/ac/soton/comp2211/scenes/ObstacleScene$1.class
 uk/ac/soton/comp2211/App.class

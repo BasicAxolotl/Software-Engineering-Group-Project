@@ -38,9 +38,9 @@ public class ObstacleScene extends BaseScene{
         var tf4 = new TextField();
         var middle1 = new HBox(new TextFlow(new Text("Obstacle name")), tf1);
         middle1.setAlignment(Pos.CENTER);
-        var middle2 = new HBox(new TextFlow(new Text("Obstacle width")), tf2);
+        var middle2 = new HBox(new TextFlow(new Text("Obstacle width (m)")), tf2);
         middle2.setAlignment(Pos.CENTER);
-        var middle3 = new HBox(new TextFlow(new Text("Obstacle height")), tf3);
+        var middle3 = new HBox(new TextFlow(new Text("Obstacle height (m)")), tf3);
         middle3.setAlignment(Pos.CENTER);
         var middle4 = new HBox(new TextFlow(new Text("Obstacle description")), tf4);
         middle4.setAlignment(Pos.CENTER);

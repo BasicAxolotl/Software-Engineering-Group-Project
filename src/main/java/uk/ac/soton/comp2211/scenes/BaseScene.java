@@ -7,7 +7,7 @@ import javafx.scene.paint.Color;
 import uk.ac.soton.comp2211.ui.Window;
 
 /**
- * A Base Scene used in the game. Handles common functionality between all scenes.
+ * A Base Scene used in the system. Handles common functionality between all scenes.
  */
 public abstract class  BaseScene {
 
@@ -17,8 +17,8 @@ public abstract class  BaseScene {
     protected Scene scene;
 
     /**
-     * Create a new scene, passing in the GameWindow the scene will be displayed in
-     * @param window the game window
+     * Create a new scene, passing in the Window the scene will be displayed in
+     * @param window the Window
      */
     public BaseScene(Window window) {
         this.window = window;
@@ -41,7 +41,6 @@ public abstract class  BaseScene {
     public Scene setScene() {
         var previous = window.getScene();
         Scene scene = new Scene(root, previous.getWidth(), previous.getHeight(), Color.BLACK);
-        //scene.getStylesheets().add(getClass().getResource("/style/game.css").toExternalForm());
         this.scene = scene;
         return scene;
     }

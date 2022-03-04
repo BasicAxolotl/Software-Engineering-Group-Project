@@ -15,9 +15,9 @@ import uk.ac.soton.comp2211.ui.Window;
 public class MenuScene extends BaseScene {
 
     /**
-     * Create a new scene, passing in the GameWindow the scene will be displayed in
+     * Create a new Menu scene, passing in the Window the scene will be displayed in
      *
-     * @param window the game window
+     * @param window the Window
      */
     public MenuScene(Window window) {
         super(window);

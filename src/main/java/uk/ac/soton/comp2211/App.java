@@ -26,7 +26,7 @@ public class App extends Application {
     private Stage stage;
 
     /**
-     * Start the game
+     * Start the application
      * @param args commandline arguments
      */
     public static void main(String[] args) {
@@ -34,31 +34,29 @@ public class App extends Application {
     }
 
     /**
-     * Called by JavaFX with the primary stage as a parameter. Begins the game by opening the Game Window
+     * Called by JavaFX with the primary stage as a parameter. Begins the application
      * @param stage the default stage, main window
      */
     @Override
     public void start(Stage stage) {
         instance = this;
         this.stage = stage;
-
-        //Open game window
-        openGame();
+        openApp();
     }
 
     /**
-     * Create the GameWindow with the specified width and height
+     * Create the application Window with the specified width and height
      */
-    public void openGame() {
+    public void openApp() {
 
-        //Change the width and height in this class to change the base rendering resolution for all game parts
-        var gameWindow = new Window(stage,width,height);
-        //Display the GameWindow
+        //Change the width and height in this class to change the base rendering resolution for all parts
+        var runwayWindow = new Window(stage,width,height);
+        //Display the Window
         stage.show();
     }
 
     /**
-     * Shutdown the game
+     * Shutdown the app
      */
     public void shutdown() {
         System.exit(0);

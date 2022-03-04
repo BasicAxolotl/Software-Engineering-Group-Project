@@ -15,11 +15,7 @@ import javafx.scene.text.TextFlow;
 import uk.ac.soton.comp2211.ui.Window;
 
 public class ObstacleScene extends BaseScene{
-    /**
-     * Create a new scene, passing in the GameWindow the scene will be displayed in
-     *
-     * @param window the game window
-     */
+
     public ObstacleScene(Window window) {
         super(window);
     }
